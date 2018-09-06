@@ -1,11 +1,17 @@
 Package: combAUCbc
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Version: 1.0-4
+Date: 2018-04-20
+Title: Simulation for Combination Multiple Diagnostic Tests under Verification Bias
+Author: Khanh To Duc
+Maintainer: Khanh To Duc <toduc@stat.unipd.it>
+Description: Find the best linear combination of multiple diagnostic tests for 
+              maximizing AUC in presence of verification bias.
+License: GPL (>= 2)
+Depends: R(>= 2.15.0), stats, utils
+Imports: Rcpp (>= 0.12.2), RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+LazyLoad: yes
+LazyData: TRUE
+ByteCompile: yes
+RoxygenNote: 6.0.1
